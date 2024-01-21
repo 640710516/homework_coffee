@@ -1,4 +1,5 @@
-import 'package:homework_coffee/pages/cart_pages.dart';
+//import 'package:homework_coffee/pages/cart_pages.dart';
+import 'package:homework_coffee/pages/test_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,9 +18,9 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        scaffoldBackgroundColor: Color(0xFF0C0F14)
+        scaffoldBackgroundColor: Color.fromARGB(255, 255, 255, 255)
       ),
-      home: const CartPage(),
+      home: const TestPage(),
     );
   }
 }
